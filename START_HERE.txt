@@ -1,0 +1,20 @@
+HROne Employee Attendance & Analytics API — START HERE
+
+1. Read PROBLEM_STATEMENT.docx first.
+2. Read openapi.yaml and DATA_MODEL.md.
+3. Open app/main.py. This is starter code, not a finished solution. Complete the TODO endpoints and fix defects in the existing code.
+4. Install Python 3.11+ and MongoDB 6.0+ (or use MongoDB Atlas).
+5. In a terminal opened in this folder, create a virtual environment and install dependencies:
+   python -m venv .venv
+   .venv\Scripts\activate   (Windows PowerShell)
+   pip install -r requirements.txt
+6. Set MONGO_URI and MONGO_DB environment variables before running. Do not commit credentials or any .env file.
+   Example local MongoDB URI: mongodb://localhost:27017
+7. Seed sample data: python sample_seed.py
+8. Run the API: uvicorn app.main:app --port 8000 --reload
+9. Open http://127.0.0.1:8000/docs to test the API.
+10. Complete REVIEW.md and DECISIONS.md in your own words, and update README.md with setup and what is implemented/missing.
+11. Before submission, verify the app works, push to a PUBLIC Git repository, and submit that repository URL using the form in the email by 15 October 2026, 11:59 PM IST. Keep it public until 31 October 2026.
+
+Required submission files: app/main.py, requirements.txt, REVIEW.md, DECISIONS.md, README.md.
+Do not include .env files, secrets, or a Dockerfile. This folder is a starter kit and is NOT a completed assignment.
